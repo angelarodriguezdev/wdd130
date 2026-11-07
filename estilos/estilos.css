@@ -14,7 +14,7 @@ body {
   
 nav {
     background-color: steelblue;
-    padding: auto;
+    padding: 0;
 }
 
 nav a {
