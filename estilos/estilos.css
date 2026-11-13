@@ -32,6 +32,7 @@ main {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -44,13 +45,16 @@ p {
 }
 
 aside {
+    position: relative;
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb( 0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+
 }
 
 aside img {
@@ -62,4 +66,13 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Seletores de Classe */
+.caixa {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: #ddd;
+    color: #000;
 }
