@@ -57,26 +57,30 @@ header nav a {
     font-size: 14px;
 }
 
-h1, h2 {
+h1 {
+    position: absolute;
     font-family: var(--fonte-titulo);
-    color: var(--cor-primaria);
+    background-color: var(--cor-primaria);
     text-align: center;
     top: 20px;
     width: 100%;
     padding: 16px;
     opacity: 1;
+    color: var(--cor-destaque3);
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    padding: 16px;
+}
+
+.historia h2 {
     background-color: var(--cor-secundaria);
     color: var(--cor-destaque3);
 }
 
- .frase {
-    font-family: var(--fonte-titulo);
-    color: var(--cor-primaria);
-    text-align: center;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    opacity: 1;
+.frase h2 {
     background-color: var(--cor-destaque2);
     color: var(--cor-destaque3);
 }
