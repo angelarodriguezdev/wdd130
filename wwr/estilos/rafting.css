@@ -33,7 +33,7 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
-    background-color: #087E8B;
+    background-color: var(--cor-destaque4);
     width: 810px;
 }
 
@@ -58,23 +58,11 @@ header nav ul {
 }
 
 header nav a {
-    color: #fff;
+    color: var(--cor-destaque3);
     text-decoration: none;
     font-size: 14px;
     padding: 10px 15px;
     font-weight: bold;
-}
-
-h1 {
-    position: absolute;
-    font-family: var(--fonte-titulo);
-    background-color: var(--cor-primaria);
-    text-align: center;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    opacity: 1;
-    color: var(--cor-destaque3);
 }
 
 h2 {
@@ -143,13 +131,14 @@ p, article {
     text-decoration: none;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 1;
+    font-family: var(--fonte-titulo);
     background-color: var(--cor-primaria);
     color: var(--cor-destaque2);
 }
